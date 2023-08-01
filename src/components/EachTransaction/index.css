@@ -1,0 +1,42 @@
+.trans-li-ele{
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #E2E2E2;
+  width: 850px;
+  height: 30px;
+ 
+  align-items: center;
+}
+.type-icon{
+  height: 25px;
+  width: 25px;
+}
+.name{
+  color: #505887;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+width: 130px;
+}
+.category{
+  color: #718EBF;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+width: 130px;
+}
+.money{
+  color: #FE5C73;
+text-align: right;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+width: 130px;
+}

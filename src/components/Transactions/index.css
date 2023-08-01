@@ -1,0 +1,88 @@
+.trans-bg-cont{
+  display: flex;
+}
+.trans-container{
+  display: flex;
+  flex-direction: column;
+  background-color: #F5F7FA;
+  width: 80%;
+  height: 100vh;
+  overflow-y: scroll;
+}
+.trans-header-cont{
+  display: flex;
+  align-items: center;
+  background-color: white;
+  padding: 0px 10px 0px 10px;
+  margin-left: 2px;
+  justify-content: space-between;
+}
+.trans-head{
+  color: #343C6A;
+font-family: Inter;
+font-size: 28px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.add-button-trans{
+  color: #FFF;
+  text-align: center;
+  background-color: blue;
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border: none;
+  padding: 9px 10px 9px 10px;
+  border-radius: 9px;
+}
+.heading-cont{
+  display: flex;
+  flex-direction: column;
+}
+.filters-cont{
+  display: flex;
+  margin-bottom: 6px;
+}
+.filter-btn{
+  background-color: transparent;
+  border: none;
+  color: #718EBF;
+text-align: center;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-right: 8px;
+}
+.transactions-ul-element{
+  background-color: white;
+  padding: 10px;
+  margin: 15px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.transactions-li-elemet{
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #E2E2E2;
+  width: 700px;
+  height: 30px;
+  margin-bottom: 5px;
+  align-items: center;
+}
+.column-name{
+  color: #343C6A;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+width: 120px;
+}

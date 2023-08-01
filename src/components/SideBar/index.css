@@ -1,0 +1,151 @@
+.sidebar-container {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  width: 230px;
+  margin-left: 10px;
+  height: 100vh;
+  justify-content: space-between;
+}
+.side-cont {
+  display: flex;
+  flex-direction: column;
+}
+.link {
+  text-decoration: none;
+}
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+.logo {
+  margin-right: 15px;
+}
+.website-name {
+  color: #f89a23;
+  font-family: Poppins;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+}
+.money-span {
+  color: #343c6a;
+}
+
+.routing-cont {
+  display: flex;
+  flex-direction: column;
+}
+.link-cont {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  margin-left: 20px;
+  color: #343c6a;
+}
+.active {
+  color: #2d60ff;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  margin-left: 20px;
+}
+.route-img {
+  margin-right: 15px;
+}
+.user-log-cont {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 200px;
+}
+.route-name {
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.profile {
+  height: 20px;
+  width: 20px;
+}
+.name-det {
+  display: flex;
+  flex-direction: column;
+}
+.email-side {
+  color: #718ebf;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+.matter-cont {
+  display: flex;
+  flex-direction: column;
+}
+.pop-up-cont {
+  padding: 10px;
+  border-radius: 10px;
+  width: 591px;
+  height: 188px;
+  flex-shrink: 0;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.inner-pop-cont {
+  display: flex;
+  align-items: center;
+}
+.logout-icon {
+  width: 27px;
+  height: 27px;
+  flex-shrink: 0;
+  background-color: #fde68a;
+  color: #D97706;
+  border-radius: 20px;
+  margin-right: 15px;
+  padding: 10px;
+}
+.trigger-button{
+  border-radius: 8px;
+border: 1px solid #CBD5E1;
+background: #FFF;
+color: #333B69;
+text-align: center;
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 20px; 
+}
+.pop-head{
+  margin-bottom:0px;
+  color: #333B69;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: 28px; 
+}
+.pop-para{
+  margin-top: 0px;
+  color: #505887;
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px; /* 142.857% */
+}
+.btns-cont{
+  display: flex;
+  align-self: center;
+  align-items: center;
+}

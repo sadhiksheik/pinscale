@@ -1,0 +1,97 @@
+.dash-bg-container{
+  display: flex;
+  min-height: 100vh;
+}
+.dash-container{
+  display: flex;
+  flex-direction: column;
+  background-color: #F5F7FA;
+  width: 80%;
+  height: 100vh;
+  overflow-y: scroll;
+}
+.dash-header-cont{
+  display: flex;
+  align-items: center;
+  background-color: white;
+  padding: 0px 10px 0px 10px;
+  margin-left: 2px;
+  justify-content: space-between;
+}
+.accounts{
+  color: #343C6A;
+font-family: Inter;
+font-size: 28px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.add-button{
+  color: #FFF;
+  text-align: center;
+  background-color: blue;
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border: none;
+  padding: 9px 10px 9px 10px;
+  border-radius: 9px;
+}
+.totals-cont{
+  display: flex;
+  align-items: center;
+ padding: 20px;
+}
+.credit-cont{
+  display: flex;
+width: 343px;
+height: 120px;
+padding: 10px;
+background-color: white;
+align-items: flex-start;
+gap: 8px;
+flex-shrink: 0;
+border-radius: 15px;
+justify-content: space-between;
+margin-right: 15px;
+}
+.amount-cont{
+  display: flex;
+  flex-direction: column;
+}
+.credi-image{
+  width: 100px;
+height: 100px;
+}
+.amount{
+  color: #16DBAA;
+font-family: Inter;
+font-size: 32px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.type{
+  color: #718EBF;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.loader-container{
+  align-self: center;
+}
+.last-tans{
+  color: #333B69;
+font-family: Inter;
+font-size: 22px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+margin-left: 25px;
+margin-top: 0px;
+margin-bottom: 30px;
+}
